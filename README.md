@@ -9,6 +9,13 @@ Slack（conversations.history）──メッセージ──▶ main.py ──本
                                                  └──要約──▶ LINE（プッシュメッセージ）
 ```
 
+## 使う技術
+
+- Python 3（requests・python-dotenv）
+- Slack Web API（チャンネルのメッセージを読む）
+- OpenAI API（gpt-4o-mini で要約）
+- LINE Messaging API（要約を送る）
+
 ## 事前準備
 
 ### 1. ライブラリ
